@@ -1,6 +1,6 @@
 body { font-family: Arial, sans-serif;  margin: 0; padding: 0; }
 .app-container { text-align: center;}
-.header { padding: 20px; color: black; display: flex; align-items: center; justify-content: space-between; }
+.header { padding: 15px; color: black; display: flex; align-items: center; justify-content: space-between; }
 .logo { margin-right: 10px; }
 .main-content { display: flex; justify-content: center; align-items: center; height: calc(100vh - 350px); }
 .login-container { background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); width: 100%; max-width: 700px; color: #000000; border: 1px solid #ccc; }
@@ -71,6 +71,6 @@ input[type="text"] { border: 1px solid #ddd; }
 .employee-status .header { display: flex; justify-content: flex-end;  }
 .employee-status .statistics { display: flex; justify-content: space-between; }
 .stats-box { flex: 1; border: 1px solid #ddd; margin: 2px; text-align: center; }
-.charts { display: flex; justify-content: space-between; }
+.charts { display: flex; justify-content: space-between; padding-top: 20px; }
 .bar-chart, .pie-chart { flex: 1; padding:2px; border: 1px solid #ddd; margin: 3px; text-align: center; }
 .checkbox-container{ align-items: flex-end; text-align: end;}
