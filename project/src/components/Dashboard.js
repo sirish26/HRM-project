@@ -5,6 +5,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import MenuIcon from '@mui/icons-material/Menu';
 import Jobdesk from './Jobdesk';
 import EmployeeTable from './EmployeeTable';
+import EmployeeStatus from './EmployeeStatus';
 
 const Dashboard = ({ userRole }) => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -126,6 +127,7 @@ const Dashboard = ({ userRole }) => {
           <div className="content">
             {selectedOption === 'jobdesk' && <Jobdesk />}
             {selectedOption === 'All Employees' && <EmployeeTable />}
+            {selectedOption === 'Employee Status' && <EmployeeStatus/>}
           </div>
         </main>
       </div>
